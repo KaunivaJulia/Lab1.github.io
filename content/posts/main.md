@@ -1,6 +1,8 @@
+---
 title: «Lab number 1»
 date: 2025-09-12T22:47:11+03:00
 draft: false
+---
 
 # Каунова Юлия
 
