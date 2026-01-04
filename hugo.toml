@@ -1,4 +1,8 @@
-baseURL = 'https://Lab1.github.io'
+baseURL = 'https://kaunivajulia.github.io/Lab1.github.io/'
 languageCode = 'ru-ru'
 title = 'My New Hugo Site'
 theme = "ananke"
+
+[params.css]
+Sass = true
+sass = true
