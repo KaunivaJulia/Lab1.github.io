@@ -19,7 +19,7 @@ Accept: */*
 Connection: close
 
 ```
-![GET через netcat](/images/http_requests/get.png)
+![GET через netcat](/static/images/http_requests/get.png)
 
 ## 1.2 POST-запрос
 Подключение:
@@ -38,4 +38,4 @@ Connection: close
 
 name=test&value=123
 ```
-![POST через netcat](/images/http_requests/post.png)
+![POST через netcat](/static/images/http_requests/post.png)
