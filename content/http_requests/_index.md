@@ -19,7 +19,7 @@ Accept: */*
 Connection: close
 
 ```
-![GET через netcat](/Lab1.github.io/images/http_requests/get.png)
+[![GET через netcat](/Lab1.github.io/images/http_requests/get.png)](/Lab1.github.io/images/http_requests/get.png)
 
 ## 1.2 POST-запрос
 Подключение:
