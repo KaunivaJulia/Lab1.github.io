@@ -19,9 +19,7 @@ Accept: */*
 Connection: close
 
 ```
-<a href="/Lab1.github.io/images/http_requests/get.png" target="_blank">
-  <img src="/Lab1.github.io/images/http_requests/get.png" alt="GET через netcat" style="width:100%; height:auto;">
-</a>
+![GET через netcat](/Lab1.github.io/images/http_requests/get.png)
 
 ## 1.2 POST-запрос
 Подключение:
@@ -40,10 +38,4 @@ Connection: close
 
 name=test&value=123
 ```
-<a href="/Lab1.github.io/images/http_requests/post.png" target="_blank">
-  <img src="/Lab1.github.io/images/http_requests/post.png" alt="POST через netcat" style="width:100%; height:auto;">
-</a>
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
+![POST через netcat](/Lab1.github.io/images/http_requests/post.png)
