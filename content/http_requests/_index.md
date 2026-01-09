@@ -43,3 +43,7 @@ name=test&value=123
 <a href="/Lab1.github.io/images/http_requests/post.png" target="_blank">
   <img src="/Lab1.github.io/images/http_requests/post.png" alt="POST через netcat" style="width:100%; height:auto;">
 </a>
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
