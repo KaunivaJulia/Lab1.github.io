@@ -1,7 +1,4 @@
----
-title: "HTTP Requests"
-description: "Отчёт по HTTP-запросам (пункт 1)"
----
+
 
 # HTTP Requests
 
