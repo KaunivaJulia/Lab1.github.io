@@ -38,4 +38,4 @@ Connection: close
 
 name=test&value=123
 ```
-![POST через netcat](/Lab1.github.io/images/http_requests/post.png)
+[![POST через netcat](/Lab1.github.io/images/http_requests/post.png)](/Lab1.github.io/images/http_requests/post.png)
