@@ -52,7 +52,6 @@ curl -i "https://postman-echo.com/get?from=curl"
 ```
 [![GET через curl](/Lab1.github.io/images/http_requests/get2.png)](/Lab1.github.io/images/http_requests/get2.png)
 
----
 
 ## 2.2 POST-запрос (cURL)
 
