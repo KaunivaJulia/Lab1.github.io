@@ -80,4 +80,4 @@ curl -i -X POST "https://postman-echo.com/post" \
 
 ### 3.2 Результат
 В ответе получен статус **200 OK** и XML, содержащий значения курса EUR к RUB за указанный период (элементы `<Record>`).
-  [![POST запрос ЦБ РФl](/Lab1.github.io/images/http_requests/postman2.png)](/Lab1.github.io/images/http_requests/postman2.png)
+  [![POST ответ ЦБ РФl](/Lab1.github.io/images/http_requests/postman2.png)](/Lab1.github.io/images/http_requests/postman2.png)
