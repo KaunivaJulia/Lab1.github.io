@@ -76,7 +76,7 @@ curl -i -X POST "https://postman-echo.com/post" \
   - `date_req1 = 03/01/2025`
   - `date_req2 = 03/02/2025`
   - `VAL_NM_RQ = R01239` (EUR)
-  [![POST запрос ЦБ РФl](/Lab1.github.io/images/http_requests/postman.png)](/Lab1.github.io/images/http_requests/postman.png)
+  [![POST запрос ЦБ РФl](/Lab1.github.io/images/http_requests/postman1.png)](/Lab1.github.io/images/http_requests/postman1.png)
 
 ### 3.2 Результат
 В ответе получен статус **200 OK** и XML, содержащий значения курса EUR к RUB за указанный период (элементы `<Record>`).
