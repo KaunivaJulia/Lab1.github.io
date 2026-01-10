@@ -39,3 +39,28 @@ Connection: close
 name=test&value=123
 ```
 [![POST через netcat](/Lab1.github.io/images/http_requests/post.png)](/Lab1.github.io/images/http_requests/post.png)
+
+## 2. Те же запросы через cURL
+
+**cURL** — это утилита командной строки, которая умеет отправлять HTTP-запросы (GET, POST и др.) прямо из терминала.  
+
+## 2.1 GET-запрос (cURL)
+
+Команда:
+```bash
+curl -i "https://postman-echo.com/get?from=curl"
+```
+[![GET через curl](/Lab1.github.io/images/http_requests/get2.png)](/Lab1.github.io/images/http_requests/get2.png)
+
+---
+
+## 2.2 POST-запрос (cURL)
+
+Команда:
+```bash
+curl -i -X POST "https://postman-echo.com/post" \
+  -H "Content-Type: application/x-www-form-urlencoded" \
+  --data "name=test&value=123"
+```
+[![POST через curl](/Lab1.github.io/images/http_requests/post2.png)](/Lab1.github.io/images/http_requests/post2.png)
+
