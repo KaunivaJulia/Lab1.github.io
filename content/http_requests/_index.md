@@ -64,3 +64,21 @@ curl -i -X POST "https://postman-echo.com/post" \
 ```
 [![POST через curl](/Lab1.github.io/images/http_requests/post2.png)](/Lab1.github.io/images/http_requests/post2.png)
 
+## 3. GET-запрос в Postman: курс валюты за период (API Банка России)
+
+Для получения курса валюты за выбранный период использован XML API Банка России: метод `XML_dynamic.asp`, который принимает параметры:
+- `date_req1`, `date_req2` — диапазон дат
+- `VAL_NM_RQ` — код валюты (например, EUR = `R01239`)
+
+### 3.1 Настройка запроса в Postman
+- Method: **GET**
+- URL: `https://www.cbr.ru/scripts/XML_dynamic.asp`
+- Params:
+  - `date_req1 = 03/01/2025`
+  - `date_req2 = 03/02/2025`
+  - `VAL_NM_RQ = R01239` (EUR)
+[![Postman запрос ЦБ РФ]](/Lab1.github.io/images/http_requests/postman.png)](/Lab1.github.io/images/http_requests/postman.png)
+
+### 3.2 Результат
+В ответе получен статус **200 OK** и XML, содержащий значения курса EUR к RUB за указанный период (элементы `<Record>`).
+[![Postman ответ ЦБ РФ]](/Lab1.github.io/images/http_requests/postman2.png)](/Lab1.github.io/images/http_requests/postman2.png)
